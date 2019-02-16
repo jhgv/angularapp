@@ -10,7 +10,6 @@ import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
-    FormsModule,
     AppComponent,
     ServerComponent,
     ServersComponent,
@@ -18,7 +17,8 @@ import {FormsModule} from '@angular/forms';
     WarningAlertComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
